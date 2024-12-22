@@ -1,0 +1,99 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 328 192)
+	(text "Selector_8" (rect 192 112 253 126)(font "Arial" (font_size 8)))
+	(text "inst" (rect 16 112 33 124)(font "Arial" ))
+	(port
+		(pt 232 0)
+		(input)
+		(text "A[7..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "A[7..0]" (rect 224 25 238 62)(font "Arial" (font_size 8))(vertical))
+		(line (pt 232 0)(pt 232 16)(line_width 3))
+	)
+	(port
+		(pt 208 0)
+		(input)
+		(text "B[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "B[7..0]" (rect 200 25 214 61)(font "Arial" (font_size 8))(vertical))
+		(line (pt 208 0)(pt 208 16)(line_width 3))
+	)
+	(port
+		(pt 184 0)
+		(input)
+		(text "C[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "C[7..0]" (rect 176 25 190 61)(font "Arial" (font_size 8))(vertical))
+		(line (pt 184 0)(pt 184 16)(line_width 3))
+	)
+	(port
+		(pt 160 0)
+		(input)
+		(text "D[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "D[7..0]" (rect 152 25 166 61)(font "Arial" (font_size 8))(vertical))
+		(line (pt 160 0)(pt 160 16)(line_width 3))
+	)
+	(port
+		(pt 136 0)
+		(input)
+		(text "E[7..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "E[7..0]" (rect 128 25 142 60)(font "Arial" (font_size 8))(vertical))
+		(line (pt 136 0)(pt 136 16)(line_width 3))
+	)
+	(port
+		(pt 112 0)
+		(input)
+		(text "F[7..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "F[7..0]" (rect 104 25 118 60)(font "Arial" (font_size 8))(vertical))
+		(line (pt 112 0)(pt 112 16)(line_width 3))
+	)
+	(port
+		(pt 88 0)
+		(input)
+		(text "G[7..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "G[7..0]" (rect 80 25 94 62)(font "Arial" (font_size 8))(vertical))
+		(line (pt 88 0)(pt 88 16)(line_width 3))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "H[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "H[7..0]" (rect 56 25 70 61)(font "Arial" (font_size 8))(vertical))
+		(line (pt 64 0)(pt 64 16)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "S[2..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "S[2..0]" (rect 21 59 57 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 136 128)
+		(output)
+		(text "O[7..0]" (rect 248 -64 285 -50)(font "Arial" (font_size 8)))
+		(text "O[7..0]" (rect 128 67 142 104)(font "Arial" (font_size 8))(vertical))
+		(line (pt 136 128)(pt 136 112)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 256 112))
+	)
+)
