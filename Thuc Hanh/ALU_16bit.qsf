@@ -1,0 +1,140 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 17:51:09  October 21, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ALU_16bit_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY ALU16BIT
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:51:09  OCTOBER 21, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE ../../../DoAn/BT1/SRWPL.bdf
+set_global_assignment -name BDF_FILE ../../../DoAn/BT1/mux41.bdf
+set_global_assignment -name BDF_FILE FA.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE WFFA.vwf
+set_global_assignment -name BDF_FILE FA4bit.bdf
+set_global_assignment -name BDF_FILE FA16bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugFA16.vwf
+set_global_assignment -name BDF_FILE SUB.bdf
+set_global_assignment -name BDF_FILE SUB4bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE WFSUB.vwf
+set_global_assignment -name BDF_FILE SUB16bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugSUB16.vwf
+set_global_assignment -name BDF_FILE 4BITMUX4.bdf
+set_global_assignment -name BDF_FILE 16BITMUX4.bdf
+set_global_assignment -name BDF_FILE ADD1.bdf
+set_global_assignment -name BDF_FILE 16BITADD1.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugADD1.vwf
+set_global_assignment -name BDF_FILE DEG1.bdf
+set_global_assignment -name BDF_FILE 16BITDEG1.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugDEG1.vwf
+set_global_assignment -name BDF_FILE AU.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugAU.vwf
+set_global_assignment -name BDF_FILE AND8BIT.bdf
+set_global_assignment -name BDF_FILE AND16BIT.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugAND16.vwf
+set_global_assignment -name BDF_FILE OR8BIT.bdf
+set_global_assignment -name BDF_FILE OR16BIT.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugOR16.vwf
+set_global_assignment -name BDF_FILE NAND8BIT.bdf
+set_global_assignment -name BDF_FILE NAND16BIT.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugNAND16.vwf
+set_global_assignment -name BDF_FILE XOR8BIT.bdf
+set_global_assignment -name BDF_FILE XOR16BIT.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugXOR16.vwf
+set_global_assignment -name BDF_FILE LU.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugLU.vwf
+set_global_assignment -name BDF_FILE 4BITMUX2.bdf
+set_global_assignment -name BDF_FILE 16BITMUX2.bdf
+set_global_assignment -name BDF_FILE ALU16BIT.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DebugALU.vwf
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_V2 -to A[15]
+set_location_assignment PIN_V1 -to A[14]
+set_location_assignment PIN_U4 -to A[13]
+set_location_assignment PIN_U3 -to A[12]
+set_location_assignment PIN_T7 -to A[11]
+set_location_assignment PIN_P2 -to A[10]
+set_location_assignment PIN_P1 -to A[9]
+set_location_assignment PIN_N1 -to A[8]
+set_location_assignment PIN_A13 -to A[7]
+set_location_assignment PIN_B13 -to A[6]
+set_location_assignment PIN_C13 -to A[5]
+set_location_assignment PIN_AC13 -to A[4]
+set_location_assignment PIN_AD13 -to A[3]
+set_location_assignment PIN_AF14 -to A[2]
+set_location_assignment PIN_AE14 -to A[1]
+set_location_assignment PIN_P25 -to A[0]
+set_location_assignment PIN_N26 -to Op[2]
+set_location_assignment PIN_N25 -to Op[1]
+set_location_assignment PIN_G26 -to Op[0]
+set_location_assignment PIN_AE13 -to Result[15]
+set_location_assignment PIN_AF13 -to Result[14]
+set_location_assignment PIN_AE15 -to Result[13]
+set_location_assignment PIN_AD15 -to Result[12]
+set_location_assignment PIN_AC14 -to Result[11]
+set_location_assignment PIN_AA13 -to Result[10]
+set_location_assignment PIN_Y13 -to Result[9]
+set_location_assignment PIN_AA14 -to Result[8]
+set_location_assignment PIN_AC21 -to Result[7]
+set_location_assignment PIN_AD21 -to Result[6]
+set_location_assignment PIN_AD23 -to Result[5]
+set_location_assignment PIN_AD22 -to Result[4]
+set_location_assignment PIN_AC22 -to Result[3]
+set_location_assignment PIN_AB21 -to Result[2]
+set_location_assignment PIN_AF23 -to Result[1]
+set_location_assignment PIN_AE23 -to Result[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/HK5/TKLLS/THTKLLS/Lab03_22521086/Thuc Hanh/DebugALU.vwf"
