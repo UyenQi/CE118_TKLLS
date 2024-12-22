@@ -1,0 +1,112 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 20:33:21  November 11, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		LAB4_5_6_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY LAB4_5_6
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:33:21  NOVEMBER 11, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name BDF_FILE LAB4_5_6.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE REfile.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name BDF_FILE REfile16bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE RE8X16.vwf
+set_global_assignment -name BDF_FILE RFC_8X16.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Encoder328.vwf
+set_global_assignment -name BDF_FILE Encoder3to8.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SHIFT.vwf
+set_global_assignment -name BDF_FILE ShiftLeft.bdf
+set_global_assignment -name BDF_FILE RE16bit.bdf
+set_global_assignment -name BDF_FILE Registerfile.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DATAPATH.vwf
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE Datapath.bdf
+set_global_assignment -name BDF_FILE NEXTSTATE.bdf
+set_global_assignment -name BDF_FILE CURRENT.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE cotroll.vwf
+set_global_assignment -name BDF_FILE OUTPUTLOGIC.bdf
+set_global_assignment -name BDF_FILE CONTROLLER.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FINAL.vwf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_W26 -to CLK
+set_location_assignment PIN_AE14 -to I[3]
+set_location_assignment PIN_P25 -to I[2]
+set_location_assignment PIN_N26 -to I[1]
+set_location_assignment PIN_N25 -to I[0]
+set_location_assignment PIN_AE13 -to O[15]
+set_location_assignment PIN_AF13 -to O[14]
+set_location_assignment PIN_AE15 -to O[13]
+set_location_assignment PIN_AD15 -to O[12]
+set_location_assignment PIN_AC14 -to O[11]
+set_location_assignment PIN_AA13 -to O[10]
+set_location_assignment PIN_Y13 -to O[9]
+set_location_assignment PIN_AA14 -to O[8]
+set_location_assignment PIN_AC21 -to O[7]
+set_location_assignment PIN_AD21 -to O[6]
+set_location_assignment PIN_AD23 -to O[5]
+set_location_assignment PIN_AD22 -to O[4]
+set_location_assignment PIN_AC22 -to O[3]
+set_location_assignment PIN_AB21 -to O[2]
+set_location_assignment PIN_AF23 -to O[1]
+set_location_assignment PIN_AE23 -to O[0]
+set_location_assignment PIN_V18 -to Q[3]
+set_location_assignment PIN_W19 -to Q[2]
+set_location_assignment PIN_AF22 -to Q[1]
+set_location_assignment PIN_AE22 -to Q[0]
+set_location_assignment PIN_AF14 -to START
+set_global_assignment -name BDF_FILE TESTER.bdf
+set_global_assignment -name BDF_FILE WS.bdf
+set_global_assignment -name BDF_FILE RS.bdf
+set_global_assignment -name BDF_FILE OP.bdf
+set_global_assignment -name BDF_FILE S.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/ASUS/Desktop/OwenLearn/ThietkeluanlySO/LAB4_5_6/FINAL.vwf"
