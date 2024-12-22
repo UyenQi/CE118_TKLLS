@@ -1,0 +1,57 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 56 64 168 200)
+	(text "MIXUP" (rect 72 121 107 135)(font "Arial" (font_size 8)))
+	(text "inst" (rect 24 120 41 132)(font "Arial" ))
+	(port
+		(pt 80 0)
+		(input)
+		(text "A[7..0]" (rect -8 0 29 14)(font "Arial" (font_size 8)))
+		(text "A[7..0]" (rect 72 25 86 62)(font "Arial" (font_size 8))(vertical))
+		(line (pt 80 0)(pt 80 16)(line_width 3))
+	)
+	(port
+		(pt 40 0)
+		(input)
+		(text "B[7..0]" (rect -8 0 28 14)(font "Arial" (font_size 8)))
+		(text "B[7..0]" (rect 32 25 46 61)(font "Arial" (font_size 8))(vertical))
+		(line (pt 40 0)(pt 40 16)(line_width 3))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "C[1..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "C[1..0]" (rect 26 64 62 78)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 16 72)(line_width 3))
+	)
+	(port
+		(pt 64 136)
+		(output)
+		(text "OUT[7..0]" (rect -8 0 45 14)(font "Arial" (font_size 8)))
+		(text "OUT[7..0]" (rect 56 59 70 112)(font "Arial" (font_size 8))(vertical))
+		(line (pt 64 136)(pt 64 121)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 120))
+	)
+)
